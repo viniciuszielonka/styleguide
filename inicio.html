@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concessionária de Veículos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho e Menu -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#carros">Carros</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Início -->
+    <section id="home" class="section-home">
+        <div class="home-content">
+            <h1>Bem-vindo à Concessionária</h1>
+            <p>Encontre o carro dos seus sonhos com as melhores ofertas!</p>
+            <a href="#carros" class="btn-primary">Veja nossos carros</a>
+        </div>
+    </section>
+
+    <!-- Seção Carros -->
+    <section id="carros" class="section-cars">
+        <h2>Carros Disponíveis</h2>
+        <div class="car-gallery">
+            <div class="car-item">
+                <img src="carro1.jpg" alt="Carro 1">
+                <h3>Modelo A</h3>
+                <p>R$ 50.000</p>
+                <button class="btn-secondary">Detalhes</button>
+            </div>
+            <div class="car-item">
+                <img src="carro2.jpg" alt="Carro 2">
+                <h3>Modelo B</h3>
+                <p>R$ 70.000</p>
+                <button class="btn-secondary">Detalhes</button>
+            </div>
+            <div class="car-item">
+                <img src="carro3.jpg" alt="Carro 3">
+                <h3>Modelo C</h3>
+                <p>R$ 90.000</p>
+                <button class="btn-secondary">Detalhes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Ofertas -->
+    <section id="ofertas" class="section-offers">
+        <h2>Ofertas Especiais</h2>
+        <div class="offers-grid">
+            <div class="offer">
+                <h3>Desconto de 20% no Modelo A</h3>
+                <p>Oferta válida até o final do mês. Aproveite!</p>
+            </div>
+            <div class="offer">
+                <h3>Financiamento com Taxa Zero</h3>
+                <p>Para os modelos B e C em até 60x sem juros.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="section-about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma concessionária com mais de 20 anos de experiência no mercado, oferecendo veículos de qualidade e um atendimento personalizado.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="equipe1.jpg" alt="Equipe 1">
+                <h3>João Silva</h3>
+                <p>Gerente Geral</p>
+            </div>
+            <div class="team-member">
+                <img src="equipe2.jpg" alt="Equipe 2">
+                <h3>Maria Oliveira</h3>
+                <p>Consultora de Vendas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section-contact">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="map">
+            <h3>Visite-nos</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8573920195735!2d-122.40641708467692!3d37.785834179757224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d29eb857f%3A0x1c9e8e9ed9d79f!2sOpenAI!5e0!3m2!1sen!2sus!4v1632350722391!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Concessionária de Veículos. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
